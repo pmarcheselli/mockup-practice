@@ -1,5 +1,6 @@
 body {
   /* change my background and set global font family. */
+  font-family: "Helvetica", Arial, sans-serif;
 }
 
 
@@ -11,19 +12,31 @@ body {
 
 header h1 {
   /* Make bigger and color, change our font family to a sans serif */
-  
+  margin: auto;
+  background-color: white;
+  color: mediumpurple;
+  font-size: 250%;
 }
+
 
 .main-nav {
   /* change the background color, remove bullets, add a border on each individual nav element. float the links, center our content within the links. width on links, font color, font change family */
+  background-color: mediumpurple;
+  color: white; 
 }
 
 aside {
   /* clear float (both) (since we are moving to a new section) background color, float left */
+  clear: both;
+  padding: 20px 2px 3px 20px; 
+  float: left;
+  background-color: thistle;
+  color: white;
 }
 
 aside ul {
   /* clear both */
+  clear: both;
 }
 
 article {
