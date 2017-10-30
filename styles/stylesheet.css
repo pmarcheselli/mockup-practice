@@ -13,8 +13,8 @@ body {
 
 header h1 {
   /* Make bigger and color, change our font family to a sans serif */
-  padding:40px 20px 15px 20px;
   margin:auto;
+  padding:40px 20px 15px 20px;
   background-color:white;
   color:mediumpurple;
   font-size:265%;
@@ -28,21 +28,30 @@ header h1 {
 }
 */
 
-.main-nav ul {
-  list-style-type:none;
+.main-nav {
+  width:900px;
   float:left;
+  margin: 0;
+  padding: 0;
+  background-color:mediumpurple;
 }
 
+.main-nav ul {
+  list-style-type:none;
+  width:900px;
+  margin: 0 auto;
+  padding: 0;
+}
 
 .main-nav li {
   float:left;
   background-color:mediumpurple;
 }
 
-
 .main-nav li a {
   display:block;
-  padding: 18px 45px;
+  padding: 18px 45.108px;
+  text-decoration: none;
   border-right: 1px solid black;
   text-align:center;
   color: white;
