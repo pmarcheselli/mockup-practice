@@ -61,7 +61,7 @@ header h1 {
 aside {
   /* clear float (both) (since we are moving to a new section) background color, float left */
   clear:both;
-  padding:120px 60px 120px 60px; 
+  padding:85px 80px 200px 80px; 
   float:left;
   background-color:thistle;
   color:white;
@@ -73,11 +73,14 @@ aside ul {
   clear:both;
 }
 
-/*
-aside li a {
-  width: 60px;
+aside li {
 }
-*/
+
+aside li a {
+  display:block;
+  padding-bottom: 20px;
+}
+
 
 /*
 article {
@@ -99,7 +102,8 @@ figure {
 
 footer {
   /* images float left and centered on page */
-  width: 900px;
+  width:900px;
+  float:left;
   background-color:white;
 }
 
