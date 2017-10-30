@@ -22,17 +22,28 @@ header h1 {
 
 .main-nav {
   /* change the background color, remove bullets, add a border on each individual nav element. float the links, center our content within the links. width on links, font color, font change family */
-  background-color:mediumpurple;
-  color:white; 
 }
-
 
 /*
-nav li a {
-  display:block;
-  text-align:center;
+.main-nav ul {
+  list-style-type:none;
+  margin:0;
+  padding:0;
 }
 */
+
+.main-nav li {
+  float:left;
+  background-color:mediumpurple;
+}
+
+.main-nav li a {
+  display:block;
+  padding: 18px 20px;
+  text-align:center;
+  color: white;
+}
+
 
 aside {
   /* clear float (both) (since we are moving to a new section) background color, float left */
