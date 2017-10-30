@@ -1,18 +1,20 @@
 body {
   /* change my background and set global font family. */
+  background-color:black;
   font-family: "Helvetica", Arial, sans-serif;
 }
 
 
 .content-wrapper {
-  
-
+  width:900px;
+  margin:auto;
 }
 
 
 header h1 {
   /* Make bigger and color, change our font family to a sans serif */
   padding:40px 20px 15px 20px;
+  margin:auto;
   background-color:white;
   color:mediumpurple;
   font-size:265%;
@@ -20,26 +22,28 @@ header h1 {
 }
 
 
+/*
 .main-nav {
   /* change the background color, remove bullets, add a border on each individual nav element. float the links, center our content within the links. width on links, font color, font change family */
 }
+*/
 
-/*
 .main-nav ul {
   list-style-type:none;
-  margin:0;
-  padding:0;
+  float:left;
 }
-*/
+
 
 .main-nav li {
   float:left;
   background-color:mediumpurple;
 }
 
+
 .main-nav li a {
   display:block;
-  padding: 18px 20px;
+  padding: 18px 45px;
+  border-right: 1px solid black;
   text-align:center;
   color: white;
 }
@@ -56,15 +60,30 @@ aside {
 
 aside ul {
   /* clear both */
+  list-style-type:none;
   clear:both;
 }
 
+/*
+aside li a {
+  width: 60px;
+}
+*/
+
+/*
 article {
   /* change background color, float to the right */
 }
+*/
+
+.main-article {
+  float:right;
+}
+
 
 figure {
 /* figure, we want to center that using margin:auto */
+  margin:auto;
 }  
 
 footer {
