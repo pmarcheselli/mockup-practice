@@ -29,30 +29,30 @@ header h1 {
 */
 
 .main-nav {
-  width:900px;
   float:left;
   margin: 0;
   padding: 0;
-  background-color:mediumpurple;
 }
 
 .main-nav ul {
   list-style-type:none;
   width:900px;
+  height:35px;
+  background-color:rebeccapurple;
   margin: 0 auto;
   padding: 0;
 }
 
 .main-nav li {
   float:left;
-  background-color:mediumpurple;
+  background-color:mediumpurple
 }
 
 .main-nav li a {
   display:block;
-  padding: 18px 45.108px;
+  border: 2px solid rebeccapurple;
+  padding: 9px 43.6093px;
   text-decoration: none;
-  border-right: 1px solid black;
   text-align:center;
   color: white;
 }
@@ -87,6 +87,7 @@ article {
 
 .main-article {
   float:right;
+  width:600px;
   background-color:azure;
 }
 
