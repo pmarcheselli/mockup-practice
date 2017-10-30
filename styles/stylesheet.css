@@ -12,31 +12,40 @@ body {
 
 header h1 {
   /* Make bigger and color, change our font family to a sans serif */
-  margin: auto;
-  background-color: white;
-  color: mediumpurple;
-  font-size: 250%;
+  padding:40px 20px 15px 20px;
+  background-color:white;
+  color:mediumpurple;
+  font-size:265%;
+  text-align:center;
 }
 
 
 .main-nav {
   /* change the background color, remove bullets, add a border on each individual nav element. float the links, center our content within the links. width on links, font color, font change family */
-  background-color: mediumpurple;
-  color: white; 
+  background-color:mediumpurple;
+  color:white; 
 }
+
+
+/*
+nav li a {
+  display:block;
+  text-align:center;
+}
+*/
 
 aside {
   /* clear float (both) (since we are moving to a new section) background color, float left */
-  clear: both;
-  padding: 20px 2px 3px 20px; 
-  float: left;
-  background-color: thistle;
-  color: white;
+  clear:both;
+  padding:120px 60px 120px 60px; 
+  float:left;
+  background-color:thistle;
+  color:white;
 }
 
 aside ul {
   /* clear both */
-  clear: both;
+  clear:both;
 }
 
 article {
