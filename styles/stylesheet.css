@@ -89,6 +89,7 @@ article {
   background-color:pink;
 }
 
+
 figure {
 /* figure, we want to center that using margin:auto */
   margin: auto;
@@ -98,25 +99,45 @@ figure {
   background-color:lightgray;
 }  
 
+
 figcaption {
   font-size: 14px;
   padding-top: 20px;
   padding-bottom: 56px;
 }
 
+
 footer {
   /* images float left and centered on page */
+  /*  clear: both; not sure if this is needed */
+  float: left;
   width:900px;
-  height:150px;
-  margin:0;
-  padding:0;
-  float:left;
   background-color:white;
 }
 
-footer img {
-  margin auto;
+footer img { /*margin auto? */
+  width: 3%;
+  padding: 8px 16px;
+  margin-top: 40px;
+  margin-bottom: 10px;
 }
+
+/*
+footer  {
+  clear: both;
+  margin-left: 400px;
+  display: inline;
+}
+
+footer img  {
+  width: 3%;
+  padding: .5em 1em;
+  margin-top: 2em;
+}
+*/
+
+
+
 
 /* will need to set widths on all elements so use developer tools to get this right */
 
