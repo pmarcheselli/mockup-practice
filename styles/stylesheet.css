@@ -73,14 +73,10 @@ aside ul {
   clear:both;
 }
 
-aside li {
-}
-
 aside li a {
   display:block;
   padding-bottom: 20px;
 }
-
 
 /*
 article {
@@ -88,26 +84,37 @@ article {
 }
 */
 
-.main-article {
+article {
   float:right;
-  width:600px;
-  background-color:azure;
+  background-color:pink;
 }
-
 
 figure {
 /* figure, we want to center that using margin:auto */
-  margin:auto;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+  background-color:lightgray;
 }  
+
+figcaption {
+  font-size: 14px;
+  padding-top: 20px;
+  padding-bottom: 56px;
+}
 
 footer {
   /* images float left and centered on page */
   width:900px;
+  height:150px;
+  margin:0;
+  padding:0;
   float:left;
   background-color:white;
 }
 
-footer a {
+footer img {
   margin auto;
 }
 
