@@ -78,6 +78,7 @@ article {
 
 .main-article {
   float:right;
+  background-color:azure;
 }
 
 
@@ -88,8 +89,13 @@ figure {
 
 footer {
   /* images float left and centered on page */
+  width: 900px;
+  background-color:white;
 }
 
+footer a {
+  margin auto;
+}
 
 /* will need to set widths on all elements so use developer tools to get this right */
 
