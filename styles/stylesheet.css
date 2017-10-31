@@ -101,7 +101,6 @@ figure img {
   margin: 0px auto; 
 }  
 
-
 figcaption {
   margin: 0px auto;
   width: 40%;
@@ -113,26 +112,24 @@ figcaption {
 
 
 footer  {
-   /* images float left and centered on page */
   clear: both;
 }
 
 footer ul {
-  width: 100%;
-  margin: 0px auto;
-  background-color: white;
   float: left;
+  width: 100%;
+  background-color: white;
 }
 
 footer ul li {
-  float: left;
-  width: 15%;
-  padding: 30px 16px;
+  margin-left: 400px;
 }
 
 footer ul li img {
-  width: 18%;
-  margin: 0px auto;
+  width: 5%;
+  padding: 8px 18px;
+  margin-top: 25px;
+  float: left;
   display: block;
 }
 
