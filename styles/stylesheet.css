@@ -19,7 +19,7 @@ body {
 
 header h1 {
   margin: auto;
-  padding: 80px 20px 25px 20px;
+  padding: 60px 20px 20px 20px;
   background-color: #ffffff;
   color: #8569b4;
   font-size: 270%;
@@ -31,6 +31,7 @@ header h1 {
 
 .main-nav {
   width: 100%;
+  height: 38px;
 }
 
 .main-nav ul {
@@ -39,7 +40,7 @@ header h1 {
 
 .main-nav ul li {
   float: left;
-  width: 14.287%;
+  width: 14.286%;
   background-color: #8569b4;
 }
 
@@ -64,7 +65,7 @@ aside {
 
 aside ul {
   list-style-type: none;
-  padding: 70px 70px 212px 70px;
+  padding: 70px 70px 145px 70px;
 }
 
 aside li a {
@@ -83,7 +84,7 @@ article {
 } 
 
 figure {
-  height: 560px;
+  height: 455px;
   background-color: #e1e4e9;
   text-align: center;
 }
@@ -123,8 +124,8 @@ footer ul li {
 footer ul li img {
   width: 5.35%;
   padding: 8px 18px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   float: left;
   display: block;
 }
